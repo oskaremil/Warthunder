@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Maps   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Maps.xsd">
+    
+    <Map name="Sicily" mapType="Operation">
+        <StartingPoint description="Germany">
+            <Ai>
+                <AirUnits description="Heavy fighters"/>
+                <FieldGun/>
+                <MediumTank/>
+            </Ai>
+        </StartingPoint>
+    </Map>
+    <Map name="Bulge" mapType="Operation">
+        <StartingPoint description="Germany">
+            <Ai>
+                <AirUnits description="B-17"/>
+                <MediumTank/>
+                <Base/>
+                <Base/>
+                <Base/>
+            </Ai>
+        </StartingPoint>
+    </Map>
+</Maps>
+
+<!--
+* Base@Berlin: 3t
+* Base@Krymsk: 2t ... 1,5t ?
+* Base@Kuban:
+* New Guinea: Carrier
+
+
+-->
